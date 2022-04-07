@@ -81,7 +81,7 @@ if __name__ == "__main__":
     db.session.commit()
     #print(q1.casa.formato)
 
-    geladeira = Eletrodomestico(nome="geladeira tsunami 2 portas", funcao="refrigerar", material="aço", consumo="48 kWh mensal", marca="eletrolux", quarto=cozinha)
+    geladeira = Eletrodomestico(nome="geladeira tsunami 3 portas", funcao="refrigerar", material="aço", consumo="48 kWh mensal", marca="eletrolux", quarto=cozinha)
     db.session.add(geladeira)
     db.session.commit()
 
